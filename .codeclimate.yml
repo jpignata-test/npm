@@ -1,0 +1,13 @@
+---
+engines:
+  eslint:
+    enabled: true
+ratings:
+  paths:
+  - "**.coffee"
+  - "**.js"
+  - "**.jsx"
+  - "**.css"
+exclude_paths:
+- node_modules/**/*
+- test/**/*
